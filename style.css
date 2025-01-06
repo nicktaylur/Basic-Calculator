@@ -8,7 +8,7 @@ body{
 }
 #Calculator{
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: #222222;
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -19,7 +19,7 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: gray;
+    background-color: rgb(41, 40, 40);
     color: white;
 }
 #keys{
@@ -33,7 +33,7 @@ button{
     height: 100px;
     border-radius: 50px;
     border: none;
-    background-color: crimson;
+    background-color: rgb(210, 82, 108);
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -46,10 +46,10 @@ button:active{
     background-color: hsl(0, 50%, 50%);
 }
 .operator-btn{
-    background-color: rgb(219, 75, 13);
+    background-color: rgb(210, 82, 108);
 }
 .operator-btn:hover{
-    background-color: rgb(237, 117, 65);;
+    background-color: hsl(0, 70%, 41%);
 }
 .operator-btn:active{
     background-color: rgb(183, 62, 11);
